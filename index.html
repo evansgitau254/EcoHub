@@ -166,12 +166,24 @@
         </div>
     </nav>
     <header>
-        <div class="jumbotron jumbotron-fluid text-center mb-0" style="background-image: url('imgs/pexels-quang-nguyen-vinh-222549-14020601.jpg'); height: 150px; background-size: cover; background-position: center;">
-            <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100%; color: #EB5B00;">
-                <h3 class="display-4" style="font-size: 1.5rem; line-height: 1.2;">Embracing Environmental Sustainability Research with Strategic Planning, through Unified approach.</h3>
+        <div class="jumbotron jumbotron-fluid text-center mb-0 position-relative" style="height: 150px; overflow: hidden;">
+            <!-- Background Video -->
+            <video autoplay loop muted playsinline class="position-absolute top-0 start-0 w-100 h-100" 
+                   style="object-fit: cover; z-index: -1;">
+                <source src="vids/0_Wind Energy_Renewable Energy_3840x2160.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    
+            <!-- Content Overlay -->
+            <div class="container d-flex flex-column justify-content-center align-items-center position-relative"
+                 style="height: 100%; color: #EB5B00; z-index: 1;">
+                <h3 class="display-4 text-center" style="font-size: 1.5rem; line-height: 1.2;">
+                    Embracing Environmental Sustainability Research with Strategic Planning, through Unified Approach.
+                </h3>
             </div>
         </div>
     </header>
+    
 
     <main>
         <section class="centered-div">
